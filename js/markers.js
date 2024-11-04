@@ -1,9 +1,11 @@
-document.addEventListener('DOMContentLoaded', () => {
-  setTimeout(placeVerses, 50); // Allow layout to settle
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    placeVerses();
+    updateChapterPosition();
+  }, 50); // Allow layout to settle
 });
 window.addEventListener('resize', placeVerses);
 window.addEventListener('resize', updateChapterPosition);
-document.addEventListener('DOMContentLoaded', updateChapterPosition);
 
 function updateChapterPosition() {
   const chapters = document.getElementsByClassName('perek');
@@ -22,7 +24,7 @@ function placeVerses() {
   const markers = document.querySelectorAll('.marker');
   const columnOffset = numberColumn.getBoundingClientRect().top; // Get the offset of the index column
 
-  markers.forEach((marker, index) => {
+  markers.forEach((marker) => {
     const markerRect = marker.getBoundingClientRect();
 
     const markerId = marker.id.split('_');
