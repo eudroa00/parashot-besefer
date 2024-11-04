@@ -37,10 +37,11 @@ function placeVerses() {
 
     // Calculate the position relative to the index column
     const topPosition = markerRect.top - columnOffset;
+
     // Set the top position for the number element
     if (marker.classList.contains('inside')) {
       if (window.innerWidth <= 576) {
-        numberElement.style.top = `${topPosition + 4}px`;
+        numberElement.style.top = `${topPosition}px`;
       } else {
         numberElement.style.top = `${topPosition + 9}px`;
       }
