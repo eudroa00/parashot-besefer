@@ -38,12 +38,11 @@ function placeVerses() {
     // Calculate the position relative to the index column
     const topPosition = markerRect.top - columnOffset;
 
-    if (window.innerWidth <= 576) {
-      numberElement.style.top = `${topPosition + 4}px`;
-    } else {
-      numberElement.style.top = `${topPosition + 9}px`;
-    }
-    numberColumn.appendChild(numberElement);
+
+    numberElement.style.top = topPosition + 'px';
+    numberElement.style.height = markerRect.height + 'px';
+
+   numberColumn.appendChild(numberElement);
   });
 
   checkForOverlap();
