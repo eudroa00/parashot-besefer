@@ -59,7 +59,7 @@ function checkForOverlap() {
     const nextRect = nextElement.getBoundingClientRect();
 
     // Check if the current element overlaps with the next element
-    if (currentRect.bottom > nextRect.top) {
+    if (currentRect.bottom == nextRect.bottom) {
       // Move the previous (current) element a few pixels upward
       currentElement.style.top =
         parseFloat(currentElement.style.top) - 6 + 'px';
