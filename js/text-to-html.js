@@ -4,14 +4,13 @@ let br = '<br>'; // #
 let p = '<p>'; // *
 let fp = '</p>'; // ^
 let y_q = '<div class="y-q">'; // $
-let m_q = '<div class="a-q">'; // @
-let a_q = '<div class="r-q">'; // %
+let a_q = '<div class="a-q">'; // @
+let r_q = '<div class="r-q">'; // %
 let end = '</div>'; // &
 let uTag = '<u>'; // \
 let u_end = '</u>'; // +
-let marker = '<span id="X_Y" class="marker"></span>'; // !
-let close_marker = '</span>'; // ¡
-let in_marker = '<span id="X_Y" class="marker inside"></span>'; //?
+let marker = '<span id="X_Y" class="marker">'; // ¡
+let close_marker = '</span>'; // !
 
 fs.readFile('../input.txt', 'utf8', (err, data) => {
   if (err) throw err;
@@ -26,21 +25,19 @@ fs.readFile('../input.txt', 'utf8', (err, data) => {
     } else if (data[i] === '^') {
       data = changeThisFor(data, i, fp);
     } else if (data[i] === '@') {
-      data = changeThisFor(data, i, m_q);
-    } else if (data[i] === '%') {
       data = changeThisFor(data, i, a_q);
+    } else if (data[i] === '%') {
+      data = changeThisFor(data, i, r_q);
     } else if (data[i] === '\\') {
       data = changeThisFor(data, i, uTag);
     } else if (data[i] === '+') {
       data = changeThisFor(data, i, u_end);
     } else if (data[i] === '&') {
       data = changeThisFor(data, i, end);
-    } else if (data[i] === '!') {
+    } else if (data[i] === '1') {
       data = changeThisFor(data, i, marker);
-    } else if (data[i] === '¡') {
+    } else if (data[i] === '2') {
       data = changeThisFor(data, i, close_marker);
-    } else if (data[i] === '?') {
-      data = changeThisFor(data, i, in_marker);
     }
     i++;
   }
