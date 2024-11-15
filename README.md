@@ -4,7 +4,9 @@ The narrative text is arranged in paragraphs without styling, while the voices o
 
 Read:
 
+1. Bereshit
 2. [Noach](https://eudroa00.github.io/parashot-besefer/noach.html)
 3. [Lech Lecha](https://eudroa00.github.io/parashot-besefer/lechlecha.html)
+4. [Vayera](https://eudroa00.github.io/parashot-besefer/vayera.html)
 
 Feel free to contact me at [emanuel197u@gmail.com](mailto:emanuel197u@gmail.com).
