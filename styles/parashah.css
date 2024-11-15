@@ -111,6 +111,18 @@ hr {
     width: fit-content;
 }
 
+.s-q {
+    background-color: rgba(252, 195, 37, 0.473);
+    padding: 10px;
+    width: fit-content;
+}
+
+.i-q {
+    background-color: rgba(218, 218, 218, 0.603);
+    padding: 10px;
+    width: fit-content;
+}
+
 .close-top {
     margin-bottom: 10px;
 }
