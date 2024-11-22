@@ -11,6 +11,7 @@ let uTag = '<u>'; // \
 let u_end = '</u>'; // +
 let marker = '<span id="X_Y" class="marker">'; // ¡
 let close_marker = '</span>'; // !
+let small_space = '<div class="small-space"></div>';
 
 fs.readFile('../input.txt', 'utf8', (err, data) => {
   if (err) throw err;
@@ -38,6 +39,8 @@ fs.readFile('../input.txt', 'utf8', (err, data) => {
       data = changeThisFor(data, i, marker);
     } else if (data[i] === '2') {
       data = changeThisFor(data, i, close_marker);
+    } else if (data[i] === '0') {
+      data = changeThisFor(data, i, small_space);
     }
     i++;
   }
