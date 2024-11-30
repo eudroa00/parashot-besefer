@@ -9,4 +9,4 @@ Read:
 3. [Lech Lecha](https://eudroa00.github.io/parashot-besefer/lechlecha.html)
 4. [Vayera](https://eudroa00.github.io/parashot-besefer/vayera.html)
 5. [Chayei Sarah](https://eudroa00.github.io/parashot-besefer/chayeisarah.html)
-6. [Toldot](https:eudroa00.github.io/parashot-besefer/toldot.html)
+6. [Toldot](https://eudroa00.github.io/parashot-besefer/toldot.html)
