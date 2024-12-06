@@ -4,9 +4,11 @@ The narrative text is arranged in paragraphs without styling, while the voices o
 
 Read:
 
-1. [Bereshit](https://eudroa00.github.io/parashot-besefer/bereshit.html)
-2. [Noach](https://eudroa00.github.io/parashot-besefer/noach.html)
-3. [Lech Lecha](https://eudroa00.github.io/parashot-besefer/lechlecha.html)
-4. [Vayera](https://eudroa00.github.io/parashot-besefer/vayera.html)
-5. [Chayei Sarah](https://eudroa00.github.io/parashot-besefer/chayeisarah.html)
-6. [Toldot](https://eudroa00.github.io/parashot-besefer/toldot.html)
+| #   | Parashah                                                                     | Torah Section  |
+| --- | ---------------------------------------------------------------------------- | -------------- |
+| 1   | [Bereshit](https://eudroa00.github.io/parashot-besefer/bereshit.html)        | Gen 1:1–6:8    |
+| 2   | [Noach](https://eudroa00.github.io/parashot-besefer/noach.html)              | Gen 6:9–11:32  |
+| 3   | [Lech Lecha](https://eudroa00.github.io/parashot-besefer/lechlecha.html)     | Gen 12:1–17:27 |
+| 4   | [Vayera](https://eudroa00.github.io/parashot-besefer/vayera.html)            | Gen 18:1–22:24 |
+| 5   | [Chayei Sarah](https://eudroa00.github.io/parashot-besefer/chayeisarah.html) | Gen 23:1–25:18 |
+| 6   | [Toldot](https://eudroa00.github.io/parashot-besefer/toldot.html)            | Gen 25:19–28:9 |
