@@ -93,34 +93,33 @@ hr {
     margin-bottom: 10px;
 }
 
-.y-q {
-    background-color: rgba(135, 191, 199, 0.5);
+.y-q, .a-q, .r-q, .s-q, .i-q, .p-q{
     padding: 10px;
     width: fit-content;
+}
+
+.y-q {
+    background-color: rgba(135, 191, 199, 0.5);
 }
 
 .a-q {
     background-color: rgba(122, 179, 122, 0.5);
-    padding: 10px;
-    width: fit-content;
 }
 
 .r-q {
     background-color: rgba(192, 63, 63, 0.5);
-    padding: 10px;
-    width: fit-content;
 }
 
 .s-q {
     background-color: rgba(252, 195, 37, 0.473);
-    padding: 10px;
-    width: fit-content;
 }
 
 .i-q {
     background-color: rgba(218, 218, 218, 0.603);
-    padding: 10px;
-    width: fit-content;
+}
+
+.p-q {
+    background-color: rgba(180, 129, 169, 0.603);
 }
 
 .close-top {
