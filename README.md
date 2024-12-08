@@ -12,3 +12,4 @@ Read:
 | 4   | [Vayera](https://eudroa00.github.io/parashot-besefer/vayera.html)            | Gen 18:1–22:24 |
 | 5   | [Chayei Sarah](https://eudroa00.github.io/parashot-besefer/chayeisarah.html) | Gen 23:1–25:18 |
 | 6   | [Toldot](https://eudroa00.github.io/parashot-besefer/toldot.html)            | Gen 25:19–28:9 |
+| 7   | [Vayetze](https://eudroa00.github.io/parashot-besefer/vayetze.html)          | Gen 28:10–32:3 |
