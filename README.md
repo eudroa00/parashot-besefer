@@ -18,3 +18,4 @@ Read:
 | 10  | Miketz                                                                       | Gen 41:1–44:17  |
 | 11  | Vayigash                                                                     | Gen 44:18–47:27 |
 | 12  | [Vayechi](https://eudroa00.github.io/parashot-besefer/vayechi.html)          | Gen 47:28–50:26 |
+| 13  | [Shemot](https://eudroa00.github.io/parashot-besefer/shemot.html)            | Ex 1:1–6:1      |
