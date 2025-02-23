@@ -48,6 +48,10 @@ hr {
 
 .scroll-body {
     background-image: url(../scroll_body_bk.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    width: 100%;
+    min-height: 300px;
 }
 
 .scroll-bottom {
