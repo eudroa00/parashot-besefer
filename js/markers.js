@@ -2,10 +2,14 @@ window.addEventListener('load', () => {
   setTimeout(() => {
     placeVerses();
     updateChapterPosition();
-  }, 50); // Allow layout to settle
+  }, 50);
 });
 window.addEventListener('resize', placeVerses);
 window.addEventListener('resize', updateChapterPosition);
+
+let editable2 = document.getElementById('editable');
+editable2.addEventListener('keyup', placeVerses);
+editable2.addEventListener('change', placeVerses);
 
 function updateChapterPosition() {
   const chapters = document.getElementsByClassName('perek');
@@ -22,7 +26,7 @@ function placeVerses() {
   const numberColumn = document.querySelector('.index');
   numberColumn.innerHTML = '';
   const markers = document.querySelectorAll('.marker');
-  const columnOffset = numberColumn.getBoundingClientRect().top; // Get the offset of the index column
+  const columnOffset = numberColumn.getBoundingClientRect().top;
 
   markers.forEach((marker) => {
     const markerRect = marker.getBoundingClientRect();
@@ -30,19 +34,16 @@ function placeVerses() {
     const markerId = marker.id.split('_');
     const partNumber = markerId[1];
 
-    // Create a new number element
     const numberElement = document.createElement('p');
     numberElement.className = 'number-tag';
     numberElement.innerText = partNumber;
 
-    // Calculate the position relative to the index column
     const topPosition = markerRect.top - columnOffset;
-
 
     numberElement.style.top = topPosition + 'px';
     numberElement.style.height = markerRect.height + 'px';
 
-   numberColumn.appendChild(numberElement);
+    numberColumn.appendChild(numberElement);
   });
 
   checkForOverlap();
@@ -58,13 +59,10 @@ function checkForOverlap() {
     const currentRect = currentElement.getBoundingClientRect();
     const nextRect = nextElement.getBoundingClientRect();
 
-    // Check if the current element overlaps with the next element
     if (currentRect.bottom == nextRect.bottom) {
-      // Move the previous (current) element a few pixels upward
       currentElement.style.top =
         parseFloat(currentElement.style.top) - 6 + 'px';
 
-      // Move the next element a few pixels downward
       nextElement.style.top = parseFloat(nextElement.style.top) + 10 + 'px';
       i++;
     }
