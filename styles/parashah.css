@@ -67,6 +67,7 @@ hr {
     justify-content: center;
     padding-top: 190px;
     width: 100%;
+    height: auto;
 }
 
 .divo {
@@ -145,6 +146,8 @@ hr {
 
 .verses {
     flex: 1;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .index {
@@ -168,6 +171,20 @@ hr {
     font-weight: bold;
     color: rgb(32, 32, 32);
     margin: 0;
+}
+
+.contenteditable {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+    min-height: 300px;
+    font-size: 30px;
+    border: solid 1px black;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    box-sizing: border-box;
 }
 
 @media (max-width: 576px) {
