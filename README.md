@@ -13,9 +13,9 @@ Read:
 | 5   | [Chayei Sarah](https://eudroa00.github.io/parashot-besefer/chayeisarah.html) | Gen 23:1–25:18  |
 | 6   | [Toldot](https://eudroa00.github.io/parashot-besefer/toldot.html)            | Gen 25:19–28:9  |
 | 7   | [Vayetze](https://eudroa00.github.io/parashot-besefer/vayetze.html)          | Gen 28:10–32:3  |
-| 8   | Vayishlach                                                                   | Gen 32:4–36:43  |
-| 9   | Vayeshev                                                                     | Gen 37:1–40:23  |
-| 10  | Miketz                                                                       | Gen 41:1–44:17  |
-| 11  | Vayigash                                                                     | Gen 44:18–47:27 |
+| 8   | [Vayishlach](https://eudroa00.github.io/parashot-besefer/vayishlach.html)    | Gen 32:4–36:43  |
+| 9   | [Vayeshev](https://eudroa00.github.io/parashot-besefer/vayeshev.html)        | Gen 37:1–40:23  |
+| 10  | [Miketz](https://eudroa00.github.io/parashot-besefer/miketz.html)            | Gen 41:1–44:17  |
+| 11  | [Vayigash](https://eudroa00.github.io/parashot-besefer/vayigash.html)        | Gen 44:18–47:27 |
 | 12  | [Vayechi](https://eudroa00.github.io/parashot-besefer/vayechi.html)          | Gen 47:28–50:26 |
 | 13  | [Shemot](https://eudroa00.github.io/parashot-besefer/shemot.html)            | Ex 1:1–6:1      |
